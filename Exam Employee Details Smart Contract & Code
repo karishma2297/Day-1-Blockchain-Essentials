@@ -1,0 +1,31 @@
+Test deployement of the smart contract can be found at:
+
+1) Test deplyment of contract can be found at 0x4e57bfbe46d22d2f5fd821c6552cf199c7befeb6 in https://ropsten.etherscan.io/tx/0xbcaeee1271cac614bd888e0d5c8349d88a6f9bdbf97b3d2d71fe3d9290c6abc7 
+
+2) Test deployment of contract can be found at 0x5bbf14f80d751ea643be94b93259eadd33b15d64 in https://ropsten.etherscan.io/tx/0x14dea2be0ef4a5623a64b40913369806ba4118d784bf264e57e211bd1b00ca5d 
+
+3) Test deployment of contract can be found at 0x36fc4c5f0a4524ed26ad7403f9682a9809237253 in https://ropsten.etherscan.io/tx/0xf03c8fa968f7a1da378a483ecdaf811d75ea30e876bdf90267f7c113e302aab9 
+
+4) Test deployment of contract can be found at 0x61552548e4a91074b44b005da0b6e06ec9775fdd at https://ropsten.etherscan.io/tx/0x42bc80bbadc9b891b6164d1b06fbc87ff10c9c417e4129196f206c3d666725ec
+
+5) Test deployement of contract can be found at 0x47afbb05eda82155e77c5dfa08f3d5883c705b59 at https://ropsten.etherscan.io/tx/0x38f00d592969a7c2ceddc8bf8dfb719c2ff69aefc6e7277fafb83ca69907965b
+
+
+pragma solidity >=0.4.21 <0.6.12;
+
+contract Employeedetails{
+    
+    string public name;
+    string public designation;
+    string public joiningdate; 
+    string public salary;
+    
+    function Employeedetails( string newname, string newdesignation, string newjoiningdate, string newsalary) public {
+    
+    name = newname;
+    designation = newdesignation;
+    joiningdate = newjoiningdate;
+    salary = newsalary;
+    
+    {
+    {
