@@ -1,0 +1,38 @@
+Test Deplyment of the contract can be access at :
+
+1) 0x4344c9e0c4057387542fbac00f8cf3bd840bc469 at https://ropsten.etherscan.io/tx/0x5d4afb1174f943ed4a5a00bfb1cf6c33ea898d3478a4ec3988ffda395fbf88ed
+  
+
+2) 0xcceff5e8a6f2ccfdd410c469a06d14e25dc24296 at https://ropsten.etherscan.io/tx/0x80c0e0b7a5103d2fbeb2a8f07fc96d588fce98e45e2ddeae99f10c1ead7e32a8  
+
+3) 0x1d5032c3b721108b198311125d89bb03c807a7cb at https://ropsten.etherscan.io/tx/0x52573fffa4abb0ec1653d84ced0e0ca39e2ccb6ca7013e298d9c9ead0eb762a8
+
+4) 0xeae2f2c0894977a66403ade43abb57e32bdd608e at https://ropsten.etherscan.io/tx/0x58d6e51a15e9c2ae129aa815f7ce00c01073ce34ec2702f22d6f1e13ad7ae6d1
+
+5) 0xe75ee8d22d9de7845c415e096c45a815082ad60e at https://ropsten.etherscan.io/tx/0x2b295c623dc61e0b340222b92de4de48e3b41501172fa8fbd48389d83f078dd3
+
+pragma solidity  >=0.4.21 <0.6.12;
+
+contract Trainticketdetails {
+    
+    string public Name;
+    string public Age;
+    string public Sex;
+    string public Bookingstatus;
+    string public Seatno;
+    
+    function Trainticketdetails(string newName, string newAge, string newSex, string newBookingstatus, string newSeatno) public{
+    
+    Name = newName;
+    Age = newAge;
+    Sex = newSex;
+    Bookingstatus = newBookingstatus;
+    Seatno = newSeatno;
+    
+        
+        
+        
+    }
+    
+    
+}
